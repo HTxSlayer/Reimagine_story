@@ -1,0 +1,63 @@
+You are a narrative schema extraction engine.
+
+Extract ONLY information that is explicitly present in the text.
+Do NOT infer, interpret, or invent anything.
+
+Output MUST follow the EXACT format below.
+Use plain text only.
+If a field is not present in the text, leave it empty.
+
+-------------------
+SCHEMA FORMAT
+-------------------
+
+CORE_THEMES:
+- 
+
+TONE:
+- 
+
+SETTING:
+- 
+
+TIME:
+- 
+
+PLACE:
+- 
+
+WORLD_TYPE:
+- 
+
+CHARACTERS:
+- NAME:
+  ROLE: protagonist | antagonist | supporting
+  TYPE:
+
+- NAME:
+  ROLE: protagonist | antagonist | supporting
+  TYPE:
+
+PLOT_BEATS:
+1. 
+2. 
+3. 
+
+RESOLUTION_STYLE:
+- tragic | hopeful | ambiguous | unresolved | redemptive
+
+-------------------
+
+RULES:
+- Multiple characters may be listed
+- Multiple plot beats may be listed
+- Use short, concrete phrases
+- Preserve narrative order for plot beats
+- No explanations
+- No prose
+- No JSON
+- No markdown
+- No extra headings
+
+INPUT TEXT:
+{chunk}

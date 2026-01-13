@@ -1,0 +1,20 @@
+You are a narrative planner.
+
+Create a clear 3-act outline based on the transformed plot.
+
+Constraints:
+- Act 1: Setup, world grounding, inciting tension
+- Act 2: Escalation, moral conflict, turning point
+- Act 3: Crisis, consequence, resolution
+- Maintain the tone implied by the story
+
+Transformed Plot Beats:
+{transformed_plot}
+
+Output:
+Structured outline with headings:
+Act 1
+Act 2
+Act 3
+
+No prose. No dialogue.

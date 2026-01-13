@@ -1,0 +1,324 @@
+
+===== CHUNK 1 START =====
+-------------------
+SCHEMA FORMAT
+-------------------
+
+CORE_THEMES:
+- violence
+- solitude
+- love
+
+TONE:
+- realistic
+
+SETTING:
+- Havana Riviera Hotel
+- seawall
+- street
+
+TIME:
+- morning
+- nine o'clock
+
+PLACE:
+- Havana, Cuba
+
+WORLD_TYPE:
+- magical realism
+
+CHARACTERS:
+- NAME: Gabriel Garcia Marquez
+  ROLE: protagonist
+  TYPE: author
+
+- NAME: 
+  ROLE: protagonist
+  TYPE: 
+
+
+PLOT_BEATS:
+1. A wave picks up several cars and embeds one of them in the side of a hotel.
+2. The wave causes panic and damage to the hotel, including shattered windows.
+3. Tourists are thrown into the air along with furniture.
+
+RESOLUTION_STYLE:
+- unresolved 
+
+-------------------
+RULES:
+- 
+- 
+-
+===== CHUNK 1 END =====
+
+===== CHUNK 2 START =====
+-------------------
+SCHEMA FORMAT
+-------------------
+
+CORE_THEMES: death, mystery, intrigue, beauty
+TONE:  dark, somber
+SETTING: Havana, Cuba; Vienna, Austria
+TIME: morning
+PLACE: wall, market, tavern, street
+WORLD_TYPE: contemporary 
+CHARACTERS:
+- NAME: woman
+  ROLE: protagonist | antagonist | supporting
+  TYPE: deceased
+- NAME: narrator
+  ROLE: protagonist
+  TYPE: human
+PLOT_BEATS: 
+1. Woman's body found in car
+2. Woman's identity and ring are discovered
+3. Narrator's past encounter with the woman is recalled
+RESOLUTION_STYLE: ambiguous 
+
+-------------------
+RULES:
+-
+===== CHUNK 2 END =====
+
+===== CHUNK 3 START =====
+-------------------
+SCHEMA FORMAT
+-------------------
+
+CORE_THEMES: 
+- Dreams
+- Destiny
+- Family
+
+TONE: 
+-  Mysterious
+
+SETTING: 
+- Vienna, Austria
+
+TIME: 
+- Present day
+
+PLACE: 
+- Students' tavern in Vienna, Austria
+- Old Caldas, a town in Colombia
+
+WORLD_TYPE: 
+- Magical Realism
+
+CHARACTERS: 
+- NAME: Frau Frieda
+  ROLE: protagonist
+  TYPE: supporting
+
+- NAME: Protagonist
+  ROLE: protagonist
+  TYPE: 
+
+PLOT_BEATS:
+1. The protagonist meets Frau Frieda and learns about her dreams.
+2. The protagonist's family is mentioned, including a brother who drowned in a flood.
+3. The protagonist's mother forbids the boy from swimming due to religious superstition.
+4. The protagonist's mother enforces the warning with an iron hand. 
+5. The protagonist's brother dies of drowning.
+
+RESOLUTION_STYLE:
+- unresolved 
+
+
+-------------------
+RULES:
+-
+===== CHUNK 3 END =====
+
+===== CHUNK 4 START =====
+-------------------
+SCHEMA FORMAT
+-------------------
+
+CORE_THEMES: family, dreams, fate, war, poverty
+
+TONE:  observational, reflective
+
+SETTING:  Vienna, Barcelona, Havana, Rome, Carvalleiras (a location)
+
+TIME: present day, past 
+
+PLACE:  Vienna, Barcelona, Havana, Rome, Carvalleiras (a location)
+
+WORLD_TYPE: realistic
+
+CHARACTERS:
+- NAME: Frau Frieda
+  ROLE: protagonist | antagonist | supporting
+  TYPE: dreamer
+
+- NAME: narrator
+  ROLE: protagonist | antagonist | supporting
+  TYPE: observer
+
+- NAME: father
+  ROLE: protagonist | antagonist | supporting
+  TYPE: financier
+
+- NAME: mother
+  ROLE: protagonist | antagonist | supporting
+  TYPE: musician
+
+- NAME: children
+  ROLE: protagonist | antagonist | supporting
+  TYPE: family members
+
+- NAME: Pablo Neruda
+  ROLE: protagonist | antagonist | supporting
+  TYPE: artist
+
+PLOT_BEATS: 1. The narrator is introduced and their life in Vienna is described. 2. Frau Frieda's dreams influence the narrator's life. 3. The narrator leaves Vienna after receiving a dream from Frau Frieda. 4. The narrator recounts their experiences in Barcelona, Havana, and Rome.
+
+RESOLUTION_STYLE: ambiguous 
+
+-------------------
+RULES:
+- Multiple characters may be listed
+- Multiple plot beats may be listed
+- Use short, concrete phrases
+- Preserve narrative order for plot beats
+- No explanations
+- No prose
+- No JSON
+- No extra headings
+===== CHUNK 4 END =====
+
+===== CHUNK 5 START =====
+-------------------
+SCHEMA FORMAT
+-------------------
+
+CORE_THEMES: dreams, clairvoyance, fate, poetry, time passing, relationships
+
+TONE:  observational, reflective
+
+SETTING:  a house in Barcelona, a ship at sea, the Ramblas, Vienna
+
+TIME: present day, 1980s (implied)
+
+PLACE:  Barcelona, Spain; Naples, Italy; Vienna, Austria; Havana, Cuba; a ship
+
+WORLD_TYPE:  realistic
+
+CHARACTERS:
+- NAME: Neruda
+  ROLE: protagonist | antagonist | supporting
+  TYPE: poet
+
+- NAME: Frau Frieda
+  ROLE: protagonist | antagonist | supporting
+  TYPE: clairvoyant
+
+- NAME: narrator
+  ROLE: protagonist | antagonist | supporting
+  TYPE: observer
+
+PLOT_BEATS: 
+1. Neruda's dreams about Frau Frieda
+2. Frau Frieda's dream of Neruda dreaming about her
+3. Neruda's departure and his writing in the green ink
+
+
+RESOLUTION_STYLE: ambiguous 
+
+-------------------
+RULES:
+- 
+- 
+-
+===== CHUNK 5 END =====
+
+===== CHUNK 6 START =====
+-------------------
+SCHEMA FORMAT
+-------------------
+
+CORE_THEMES: dreams, ambition, fate, irony, superstition
+
+TONE:  analytical, reflective
+
+SETTING:  Havana, Cuba
+
+TIME:  present day
+
+PLACE: Havana Riviera Hotel terrace
+
+WORLD_TYPE:  realistic
+
+CHARACTERS: 
+- NAME: author
+  ROLE: protagonist
+  TYPE: narrator
+
+- NAME: Portuguese ambassador
+  ROLE: antagonist
+  TYPE: supporting
+
+- NAME: Frau Frieda
+  ROLE: protagonist
+  TYPE: supporting
+
+PLOT_BEATS:
+1. The author meets the Portuguese ambassador and is intrigued by her stories of dreams. 
+2. The author questions the ambassador about her dreams, but she responds with "nothing."
+3. The author analyzes the irony of the situation.
+
+
+RESOLUTION_STYLE: ambiguous 
+
+-------------------
+RULES:
+- 
+- 
+-
+===== CHUNK 6 END =====
+
+===== CHUNK 7 START =====
+-------------------
+SCHEMA FORMAT
+-------------------
+
+CORE_THEMES:
+- Dreams
+
+TONE:
+- Neutral
+
+SETTING:
+- Vienna, Austria
+
+TIME:
+- Present day
+
+PLACE:
+- Havana Riviera, Cuba; Vienna, Austria
+
+WORLD_TYPE:
+- Modern
+
+CHARACTERS:
+- NAME: 
+  ROLE: protagonist | antagonist | supporting
+  TYPE: 
+- NAME: 
+  ROLE: protagonist | antagonist | supporting
+  TYPE: 
+PLOT_BEATS:
+1. Protagonist waits for money
+2. Protagonist observes other students
+3. Protagonist stays in Vienna
+
+RESOLUTION_STYLE:
+- unresolved 
+
+-------------------
+RULES:
+-
+===== CHUNK 7 END =====

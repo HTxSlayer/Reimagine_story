@@ -1,0 +1,326 @@
+
+===== CHUNK 1 START =====
+-------------------
+SCHEMA FORMAT
+-------------------
+
+CORE_THEMES:
+- violence
+- solitude
+- love
+
+TONE:
+- descriptive
+
+SETTING:
+- Havana Riviera Hotel
+- seawall
+- street
+
+TIME:
+- morning
+- nine o'clock
+
+PLACE:
+- Havana, Cuba
+
+WORLD_TYPE:
+- magical realism
+
+CHARACTERS:
+- NAME: Gabriel Garcia Marquez
+  ROLE: author
+  TYPE: human
+
+PLOT_BEATS:
+1. 
+2. 
+3. 
+4. 
+
+
+RESOLUTION_STYLE:
+- ambiguous
+
+-------------------
+===== CHUNK 1 END =====
+
+===== CHUNK 2 START =====
+-------------------
+SCHEMA FORMAT
+-------------------
+
+CORE_THEMES:
+- mystery
+- death
+
+TONE:
+- reflective
+
+SETTING:
+- Havana, city
+
+TIME:
+- present day
+
+PLACE:
+- Havana, Cuba
+
+WORLD_TYPE:
+- contemporary
+
+CHARACTERS:
+- NAME: narrator
+  ROLE: protagonist
+  TYPE: human
+
+- NAME: woman
+  ROLE: deceased
+  TYPE: human
+
+PLOT_BEATS:
+1. Woman's death in car accident
+2. Investigation of the woman's identity and circumstances
+3. Narrator's fascination with the woman and her ring 
+
+RESOLUTION_STYLE:
+- unresolved
+
+-------------------
+===== CHUNK 2 END =====
+
+===== CHUNK 3 START =====
+-------------------
+SCHEMA FORMAT
+-------------------
+
+CORE_THEMES:
+- dreams
+
+TONE:
+- neutral
+
+SETTING:
+- Vienna
+
+TIME:
+- present day
+
+PLACE:
+- Vienna, Austria
+
+WORLD_TYPE:
+- contemporary
+
+CHARACTERS:
+- NAME: narrator
+  ROLE: protagonist
+  TYPE: human
+
+- NAME: Frau Frieda
+  ROLE: supporting
+  TYPE: human
+
+PLOT_BEATS:
+1. Narrator meets Frau Frieda
+2. Frau Frieda's dreams and their interpretation
+3. Tragedy of the boy's death
+4. Frau Frieda finds work as a dream interpreter 
+
+RESOLUTION_STYLE:
+- ambiguous
+
+-------------------
+===== CHUNK 3 END =====
+
+===== CHUNK 4 START =====
+-------------------
+SCHEMA FORMAT
+-------------------
+
+CORE_THEMES:
+- fate
+
+TONE:
+- reflective
+
+SETTING:
+- Barcelona, Havana Riviera Hotel, Vienna, Rome, Carvalleiras
+
+TIME:
+- unspecified
+
+PLACE:
+- Barcelona, Havana Riviera Hotel, Vienna, Rome, Carvalleiras
+
+WORLD_TYPE:
+- contemporary
+
+CHARACTERS:
+- NAME: author
+  ROLE: protagonist
+  TYPE: human
+
+- NAME: Frau Frieda
+  ROLE: supporting
+  TYPE: human
+
+- NAME: Pablo Neruda
+  ROLE: supporting
+  TYPE: human
+
+PLOT_BEATS:
+1. Author meets Frau Frieda in Barcelona
+2. Author leaves Vienna
+3. Author encounters Pablo Neruda in Barcelona
+4. Author witnesses Pablo Neruda's behavior at Carvalleiras 
+5. Author receives a prediction from Frau Frieda
+
+RESOLUTION_STYLE:
+- ambiguous
+
+-------------------
+===== CHUNK 4 END =====
+
+===== CHUNK 5 START =====
+-------------------
+SCHEMA FORMAT
+-------------------
+
+CORE_THEMES:
+- dreams
+- clairvoyance
+
+TONE:
+- contemplative
+
+SETTING:
+- ship, house, Ramblas, Havana Riviera
+
+TIME:
+- present day
+
+PLACE:
+- various locations (ship, house, Ramblas, Havana)
+
+WORLD_TYPE:
+- literary
+
+CHARACTERS:
+- NAME: Neruda
+  ROLE: protagonist
+  TYPE: human
+
+- NAME: poet
+  ROLE: supporting
+  TYPE: human
+
+- NAME: Frau Frieda
+  ROLE: antagonist
+  TYPE: human
+
+- NAME: narrator
+  ROLE: protagonist
+  TYPE: human
+
+PLOT_BEATS:
+1. Narrator meets Frau Frieda
+2. Neruda and narrator meet
+3. Neruda's dreams
+4. Frau Frieda's dreams
+5. Frau Frieda leaves the ship
+6. Narrator encounters Frau Frieda again 
+
+RESOLUTION_STYLE:
+- ambiguous
+
+
+-------------------
+===== CHUNK 5 END =====
+
+===== CHUNK 6 START =====
+-------------------
+SCHEMA FORMAT
+-------------------
+
+CORE_THEMES:
+- dreams
+- reality
+
+TONE:
+- contemplative
+
+SETTING:
+- hotel, Havana
+
+TIME:
+- morning
+
+PLACE:
+- Havana Riviera Hotel, seawall, pavement
+
+WORLD_TYPE:
+- fictional
+
+CHARACTERS:
+- NAME: author
+  ROLE: narrator
+  TYPE: human
+
+- NAME: Portuguese ambassador
+  ROLE: antagonist
+  TYPE: human
+
+PLOT_BEATS:
+1. Author meets ambassador
+2. Ambassador speaks of Frau Frieda's dreams
+3. Author questions ambassador about Frau Frieda's actions
+4. Author learns about the "nothing" aspect of Frau Frieda's dreams
+5. Author reflects on dream vs reality 
+
+RESOLUTION_STYLE:
+- ambiguous
+
+-------------------
+===== CHUNK 6 END =====
+
+===== CHUNK 7 START =====
+-------------------
+SCHEMA FORMAT
+-------------------
+
+CORE_THEMES:
+- dreams
+
+TONE:
+- neutral
+
+SETTING:
+- Vienna
+
+TIME:
+- unspecified
+
+PLACE:
+- Vienna, Havana Riviera
+
+WORLD_TYPE:
+- contemporary
+
+CHARACTERS:
+- NAME: narrator
+  ROLE: protagonist
+  TYPE: human
+
+PLOT_BEATS:
+1. 
+2. 
+3. 
+4. 
+
+
+RESOLUTION_STYLE:
+- unresolved
+
+-------------------
+===== CHUNK 7 END =====

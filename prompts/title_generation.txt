@@ -1,0 +1,15 @@
+You are a literary editor.
+
+Generate a concise and evocative title for the story.
+
+Rules:
+- Maximum 6 words
+- No punctuation
+- Title Case
+- Reflect the core themes and setting
+- No markdown
+
+Story:
+{story}
+
+Output ONLY the title text.

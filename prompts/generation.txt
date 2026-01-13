@@ -1,0 +1,23 @@
+You are a novelist writing a serious, grounded story.
+
+Write a complete narrative based on the outline below.
+
+Length Requirements:
+- Minimum 3000 words
+- Target: 3500-4000 words
+
+Writing Instructions:
+- Expand each scene into vivid, grounded prose
+- Show character motivations through actions and decisions
+- Maintain internal logical consistency
+- Avoid repetition and filler
+- Do not rush the ending
+- Do NOT reference the original source material
+
+Style:
+- Rich but controlled literary prose
+- Clear scene progression
+- Faithful emotional pacing
+
+Outline:
+{outline}

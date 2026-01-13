@@ -1,0 +1,25 @@
+You are a narrative systems designer.
+
+Using the extracted narrative schema below, map the characters into a new target world.
+
+Preserve:
+- Character relationships
+- Narrative roles
+- Emotional intent
+- Core themes
+
+Do NOT add new characters.
+Do NOT remove characters.
+
+Extracted Narrative Schema:
+{extracted_schema}
+
+Target World Description:
+{target_world}
+
+Output Format (plain text):
+
+CHARACTER MAPPING:
+- Original Name:
+  New Role in Target World:
+  Motivation:
