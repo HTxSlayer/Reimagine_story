@@ -9,14 +9,6 @@ The final output is a fully generated long-form story (3000–4000 words) with a
 
 ---
 
-## Narrative Transformation Pipeline
-
-![Narrative Transformation Pipeline](./ChatGPT%20Image%20Jan%2012,%202026,%2005_53_56%20PM.png)
-
-The pipeline enforces controlled transformation through structured prompts, deterministic extraction, and causal consistency across stages.
-
----
-
 ## Pipeline Flow
 
 ### 1. Input Parsing
