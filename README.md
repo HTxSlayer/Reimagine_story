@@ -1,88 +1,166 @@
-Reimagining a Classic in a New World
-Pipeline Flow:
-1. Input Parsing
-• Source PDF is loaded and text is extracted page-by-page.
-• Text is chunked into manageable segments to respect model context limits.
-2. Schema Extraction
-• Each chunk is passed through a strict schema-extraction prompt.
-• Output is written incrementally to a structured plain-text schema file.
-3. World & Character Mapping
-• The extracted schema is mapped onto a user-defined target world.
-• Character roles, motivations, and relationships are preserved.
-4. Plot Transformation
-• Original plot beats are re-expressed within the target world.
-• Narrative order, escalation, and resolution style remain unchanged.
-5. Outline Generation
-• Transformed plot beats are organized into a three-act structure.
-6. Long-Form Story Generation
-• A full prose narrative is generated from the outline.
-7. Title Generation
-• A concise title is produced based on the completed story.
-8. Assembly & Output
-• Final title and story are assembled and exported as a PDF.
-Solution Design
-Input Handling
-The pipeline begins by reading a source PDF and extracting raw text using a PDF parser.
-Text is then chunked to ensure that no individual LLM call exceeds context constraints.
-Chunking also ensures graceful scaling to longer source texts.
-Schema-First Extraction
-Rather than prompting the model to reinterpret or rewrite the text immediately, the
-system first extracts a loss-minimal narrative schema.
-The schema includes:
-• Themes
-• Tone
-• Setting and world type
-• Characters and roles
-• Ordered plot beats
-• Resolution style
-This extraction is governed by a rigid prompt that forbids inference or invention
-Schema extraction
-. Temperature is set to zero to maximize determinism and consistency.
-Controlled Transformation
-Once extracted, the schema becomes the single source of narrative truth. All
-subsequent steps reference this schema rather than the original text.
-World mapping
-• Character mapping re-anchors characters into a new world while preserving
-narrative function and emotional intent
-. Plot transform
-• Plot transformation rewrites plot beats into the new setting while enforcing
-causal consistency and prohibiting structural changes
-.
-Outline
-The transformed plot is then elevated into a structured three-act outline, which serves
-as a blueprint for long-form prose generation.
-Generation
-The final story is produced using a novelist-style prompt optimized for:
-• Length (3000–4000 words)
-• Emotional pacing
-• Scene-based expansion
-• Internal consistency
-Title generation
-A short, evocative title is generated last, ensuring that it reflects the completed narrative
-rather than guiding it prematurely
-.
-Challenges & Mitigations
-• Schema Extraction Reliability: Saving in JSON/YAML format were inconsistent,
-so a strict plain-text (.txt) schema with tightly defined prompts was used to
-prevent formatting errors and inference.
-• Large File Processing: Single-pass processing was slow and unstable, resolved
-by chunking the source text to avoid context limits.
-• Performance Constraints: Latency was reduced by using a lightweight model
-for extraction and transformation, reserving heavier generation for final output.
-Edge Cases
-Source PDFs may contain licensing text, page numbers, author information, or
-front/back matter. The extraction prompt explicitly restricts output to narrative content
-only, ignoring non-story elements.
-Story will be dependent on the LLM you will chose (Large LLM will produce better, but
-will take more time).
-Future Improvement
-Persistent Narrative Memory
-• Store schemas and transformations in a database
-• Enable iterative revisions and branching narratives (Use of LangGraph)
-Interactive UI
-• Visual pipeline editor
-• Editable schemas and plot beats
-• Real-time preview of narrative changes
-Evaluation & Validation Layer
-• Automated checks for missing plot beats
-• Character consistency validation
+# Reimagining a Classic in a New World
+
+## Overview
+This project implements a structured, schema-driven pipeline that reimagines a classic narrative in a new fictional world while preserving its original narrative structure, character roles, and emotional intent.
+
+Instead of directly rewriting the source text, the system first extracts a **loss-minimal narrative schema**, which becomes the single source of truth for all subsequent transformations.
+
+The final output is a fully generated long-form story (3000–4000 words) with a newly generated title, exported as a PDF.
+
+---
+
+## Narrative Transformation Pipeline
+
+![Narrative Transformation Pipeline](./ChatGPT%20Image%20Jan%2012,%202026,%2005_53_56%20PM.png)
+
+The pipeline enforces controlled transformation through structured prompts, deterministic extraction, and causal consistency across stages.
+
+---
+
+## Pipeline Flow
+
+### 1. Input Parsing
+- Source PDF is loaded using a PDF parser.
+- Text is extracted page-by-page.
+- Extracted text is chunked to respect LLM context limits.
+- Chunking enables scalability and stability for large documents.
+
+---
+
+### 2. Schema Extraction
+- Each chunk is passed through a **strict schema-extraction prompt**.
+- Temperature is set to **0** for deterministic output.
+- Schema is written incrementally to a **plain-text (.txt) file**.
+
+#### Extracted Schema Includes:
+- Themes  
+- Tone  
+- Setting / world type  
+- Characters and narrative roles  
+- Ordered plot beats  
+- Resolution style  
+
+> The extraction prompt explicitly forbids inference, invention, or reinterpretation.
+
+---
+
+### 3. World & Character Mapping
+- The schema is mapped onto a user-defined target world.
+- Characters are re-anchored while preserving:
+  - Narrative role
+  - Motivation
+  - Emotional intent
+  - Relationships
+
+---
+
+### 4. Plot Transformation
+- Original plot beats are rewritten to fit the new world.
+- Narrative order, causality, and escalation remain unchanged.
+- Structural alterations are prohibited.
+
+---
+
+### 5. Outline Generation
+- Transformed plot beats are organized into a **three-act structure**:
+  - Act I – Setup
+  - Act II – Escalation
+  - Act III – Resolution
+- This outline serves as a blueprint for prose generation.
+
+---
+
+### 6. Long-Form Story Generation
+- A novelist-style prompt expands the outline into full prose.
+- Optimized for:
+  - 3000–4000 words
+  - Emotional pacing
+  - Scene-based expansion
+  - Internal consistency
+
+---
+
+### 7. Title Generation
+- A concise, evocative title is generated **after** the story is complete.
+- Ensures the title reflects the final narrative rather than influencing it.
+
+---
+
+### 8. Assembly & Output
+- Title and story are assembled into a single document.
+- Final output is compiled and exported as a **PDF**.
+
+---
+
+## Solution Design
+
+### Schema-First Approach
+The system separates **understanding** from **generation** by extracting a structured narrative schema before any transformation occurs.
+
+This approach:
+- Minimizes semantic loss
+- Prevents creative drift
+- Enables deterministic transformations
+
+The schema becomes the **single source of narrative truth**.
+
+---
+
+### Controlled Pipeline Logic
+All pipeline stages enforce:
+- Structured prompts
+- Iterative processing
+- Causal consistency
+- Deterministic output
+
+---
+
+## Challenges & Mitigations
+
+### Schema Extraction Reliability
+- JSON/YAML formats caused inconsistencies.
+- Solution: tightly constrained **plain-text schema format**.
+
+### Large File Processing
+- Single-pass processing was slow and unstable.
+- Solution: chunk-based extraction to avoid context overflow.
+
+### Performance Constraints
+- Lightweight models used for extraction and transformation.
+- Larger models reserved for final generation.
+
+---
+
+## Edge Cases
+- Source PDFs may contain:
+  - Licensing text
+  - Page numbers
+  - Author metadata
+  - Front/back matter
+- Extraction prompts explicitly ignore all non-narrative content.
+
+> Output quality depends on the chosen LLM. Larger models improve quality at the cost of runtime.
+
+---
+
+## Future Improvements
+
+### Persistent Narrative Memory
+- Store schemas and transformations in a database
+- Enable branching narratives and revisions
+- Potential integration with **LangGraph**
+
+### Interactive UI
+- Visual pipeline editor
+- Editable schemas and plot beats
+- Real-time narrative preview
+
+### Evaluation & Validation Layer
+- Automated plot-beat completeness checks
+- Character consistency validation
+- Structural integrity enforcement
+
+---
+
+## Conclusion
+This project demonstrates a deterministic, scalable approach to narrative transformation by prioritizing structured understanding before creative generation, enabling faithful reimagining across worlds without structural loss.
